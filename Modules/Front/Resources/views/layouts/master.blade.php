@@ -1,0 +1,5 @@
+@include('front::includes.header')
+@include('front::includes.nav')
+@include('front::includes.message')
+@yield('content')
+@include('front::includes.footer')
